@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 use Frosas\BestOfStackExchange\Site;
 use Frosas\BestOfStackExchange\Site\Feed;
