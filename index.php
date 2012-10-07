@@ -7,7 +7,7 @@ use Frosas\BestOfStackExchange\Site\Feed;
 use Symfony\Component\HttpFoundation\Response;
 
 $app = new Silex\Application;
-# $app['debug'] = true;
+$app['debug'] = true;
 
 $app->get('{siteId}/feed', function($siteId) use ($app) {
     $feed = new Feed(new Site($siteId));
